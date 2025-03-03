@@ -26,6 +26,7 @@ class Solution {
                 freq[c - 'a']++; 
             }
 
+            // CAT -> 10100000000000000001000000
             // Construct a unique key based on character frequencies
             StringBuilder sb = new StringBuilder();
             for (int i : freq) {
